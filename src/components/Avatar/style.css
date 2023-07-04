@@ -1,0 +1,15 @@
+.avatar-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.img-conectado {
+    background-color: rgb(18, 179, 53);
+}
+
+.img-conectar {
+    background-color: rgb(99, 97, 97);
+    opacity: 0.8;
+}

@@ -1,0 +1,51 @@
+.user-card {
+    height: 380px;
+    width: 300px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 0 8px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.icon-verify {
+    height: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.user-card strong {
+    margin-top: 15px;
+}
+
+.user-card p {
+    color: gray;
+    font-size: 12px;
+}
+
+.user-card button {
+    border: none;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.user-card button:hover {
+    opacity: 0.8;
+}
+
+.conectado {
+    background-color: rgb(18, 179, 53);
+    border: 1px solid green;
+}
+
+.conectar {
+    background-color: #808080;
+    border: 1px solid rgb(51, 50, 50);
+}
